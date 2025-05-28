@@ -34,7 +34,50 @@
 
 ![image](https://github.com/user-attachments/assets/ffc741fb-8b86-4793-af6f-eb1eafdf299e)
 
+<h3>Adding a due date</h3>
 
+![image](https://github.com/user-attachments/assets/9137bd18-b239-499c-af95-debc038ae808)
+
+<h3>History of commands</h3>
+
+[
+  'show dbs',
+  'create todo',
+  'create db todo',
+  'use todo',
+  'todo.basicTable.insertOne({"date": new Date() , "name" : "Finish Assignment" , "deadline" : "29-05-2025"})',
+  'db.basicTable.insertOne({"date": new Date() , "name" : "Finish Assignment" , "deadline" : "29-05-2025"})',
+  'db.basicTable.insertMany([{"date": new Date() , "name" : "Workout" , "deadline" : "29-05-2025","category" : "health"}] ;',
+  'db.basicTable.insertMany([{"date": new Date() , "name" : "Workout" , "deadline" : "29-05-2025","category" : "health"}]) ',
+  'db.basicTable.find({})',
+  'db.books.find({deadline: "workout"})',
+  'db.books.find({name: "workout"})',
+  'db.books.find({name: "Workout"})',
+  'db.basicTable.find(name: "Workout")',
+  'db.basicTable.find({name: "Workout"})',
+  'vadb.basicTable.insertMany([ { "date": new Date(), "name": "meditate", "deadline": "29-05-2025", "category": "health" }, { "date": new Date(), "name": "read a book", "deadline": "31-05-2025", "category": "education" }, { "date": new Date(), "name": "cook a new recipe", "deadline": "01-06-2025", "category": "hobby" }, { "date": new Date(), "name": "go for a run", "deadline": "02-06-2025", "category": "fitness" }, { "date": new Date(), "name": "attend a music concert", "deadline": "03-06-2025", "category": "entertainment" }, { "date": new Date(), "name": "visit a museum", "deadline": "04-06-2025", "category": "culture" }, { "date": new Date(), "name": "learn a new language", "deadline": "05-06-2025", "category": "education" }, { "date": new Date(), "name": "volunteer for a cause", "deadline": "06-06-2025", "category": "social work" }] );',
+  'vadb.basicTable.insertMany([ { "date": new Date(), "name": "meditate", "deadline": "29-05-2025", "category": "health" }, { "date": new Date(), "name": "read a book", "deadline": "31-05-2025", "category": "education" }, { "date": new Date(), "name": "cook a new recipe", "deadline": "01-06-2025", "category": "hobby" }, { "date": new Date(), "name": "go for a run", "deadline": "02-06-2025", "category": "fitness" }, { "date": new Date(), "name": "attend a music concert", "deadline": "03-06-2025", "category": "entertainment" }, { "date": new Date(), "name": "visit a museum", "deadline": "04-06-2025", "category": "culture" }, { "date": new Date(), "name": "learn a new language", "deadline": "05-06-2025", "category": "education" }, { "date": new Date(), "name": "volunteer for a cause", "deadline": "06-06-2025", "category": "social work" }] );',
+  'db.basicTable.insertMany([ { "date": new Date(), "name": "meditate", "deadline": "29-05-2025", "category": "health" }, { "date": new Date(), "name": "read a book", "deadline": "31-05-2025", "category": "education" }, { "date": new Date(), "name": "cook a new recipe", "deadline": "01-06-2025", "category": "hobby" }, { "date": new Date(), "name": "go for a run", "deadline": "02-06-2025", "category": "fitness" }, { "date": new Date(), "name": "attend a music concert", "deadline": "03-06-2025", "category": "entertainment" }, { "date": new Date(), "name": "visit a museum", "deadline": "04-06-2025", "category": "culture" }, { "date": new Date(), "name": "learn a new language", "deadline": "05-06-2025", "category": "education" }, { "date": new Date(), "name": "volunteer for a cause", "deadline": "06-06-2025", "category": "social work" }] )',
+  'use todo',
+  'db.basicTable.insertMany([ { "date": new Date(), "name": "meditate", "deadline": "29-05-2025", "category": "health" }, { "date": new Date(), "name": "read a book", "deadline": "31-05-2025", "category": "education" }, { "date": new Date(), "name": "cook a new recipe", "deadline": "01-06-2025", "category": "hobby" }, { "date": new Date(), "name": "go for a run", "deadline": "02-06-2025", "category": "fitness" }, { "date": new Date(), "name": "attend a music concert", "deadline": "03-06-2025", "category": "entertainment" }, { "date": new Date(), "name": "visit a museum", "deadline": "04-06-2025", "category": "culture" }, { "date": new Date(), "name": "learn a new language", "deadline": "05-06-2025", "category": "education" }, { "date": new Date(), "name": "volunteer for a cause", "deadline": "06-06-2025", "category": "social work" }] )',
+  'db.basicTable.find({})',
+  'use todo',
+  'db.basicTable.find({})',
+  'db.updateMany({},{$set : {"completed" : false)})',
+  'db.updateMany({},{$set : {completed : false)})',
+  'db.updateMany({},{$set : {completed : false}})',
+  'db.basicTable.updateMany({},{$set : {completed : false}})',
+  "db.updateOne({_id : ObjectId('6836e7573c6c05e33d6c4bd7')} , {$set : {completed : true}})",
+  "db.basicTable.updateOne({_id : ObjectId('6836e7573c6c05e33d6c4bd7')} , {$set : {completed : true}})",
+  'db.basicTable.updateMany({},{$set : {updatedAt : new Date()}})',
+  "db.basicTable.updateOne({_id : ObjectId('6836e7573c6c05e33d6c4bd6')} , {$set : {completed : true , updatedAt : new Date()}})",
+  'db.basicTable.count()',
+  'db.basicTable.countDocuments()',
+  'db.basicTable.find().sort()',
+  'db.basicTable.updateMany({},{$set : {duedate : new Date()}})',
+  "db.getCollection('basicTable').find({duedate:{$gte : new Date().getTime()-(20*60*1000)})",
+  "db.getCollection('basicTable').find({duedate:{$gte : new Date().getTime()-(20*60*1000)}})"
+]
 
 
 
