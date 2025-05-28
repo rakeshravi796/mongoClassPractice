@@ -26,5 +26,15 @@
 
 ![image](https://github.com/user-attachments/assets/133c1cde-a1b1-4fde-8218-affccc083146)
 
+<h3>Getting the count</h3>
+
+![image](https://github.com/user-attachments/assets/85958504-c740-4489-8572-c5638bbbcf1e)
+
+<h3>Sorting</h3>
+
+![image](https://github.com/user-attachments/assets/ffc741fb-8b86-4793-af6f-eb1eafdf299e)
+
+
+
 
 
