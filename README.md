@@ -1,4 +1,11 @@
-# mongoClassPractice
+# Assignments
+
+<h1>Building a Jira clone</h1>
+
+<p>We can have a users table that will have information about the users , their roles and will have a user id.</p>
+<p>THe second table would be Projects table with information about the project and also connected with users table as we will have the users involved in the project</p>
+<p>Issues table will have information about the Issues and will be connected to the project table and will have data about which project it belongs to and the users involved in that issue will connect it with the users table.</p>
+<p>We have a comments table that has comments created by the users and the issue and project they belong to.</p>
 
 <h1>To Do app</h1>
 
